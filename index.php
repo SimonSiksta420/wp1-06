@@ -15,16 +15,16 @@ $knife = true;
 <h1> Items in your inventory </h1>
 <?php
 if ($rope) {
-    echo "Získal jsi lano<br>";
+    echo "Rope <br>";
 }
 if ($woodchunk) {
-    echo "Získal jsi kus dřeva<br>";
+    echo "Woodchunk <br>";
 }
 if ($nails) {
-    echo "Získal jsi hřebíky<br>";
+    echo "Nails <br>";
 }
 if ($knife) {
-    echo "Získal jsi nůž<br>";
+    echo "Knife <br>";
 }
  ?>
 
@@ -32,13 +32,13 @@ if ($knife) {
 
 <?php
 if ($rope && $knife && $woodchunk) {
-    echo "Bow<br>";
+    echo "Bow <br>";
 } elseif ($nails && $woodchunk) {
-    echo "Bat with nails<br>";
+    echo "Bat with nails <br>";
 } elseif ($rope && $woodchunk) {
-    echo "Nunchaku<br>";
+    echo "Nunchaku <br>";
 } elseif ($knife && $woodchunk) {
-    echo "Spear<br>";
+    echo "Spear <br>";
 }
 ?> 
 </body>
