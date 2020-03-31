@@ -3,7 +3,7 @@ $woodchunk = true;
 $rope = true;
 $nails = true;
 $knife = true;
-$imageknife = "https://www.highlife.cz/image/5000/noze-nuz-ka-bar-usmc-fighting-knife-i5369.jpg";
+$imageknife = "https://cdn.shopify.com/s/files/1/1186/5476/products/chefs-knife-gray-191015-shoppage_grande.jpg?v=1570809541";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +24,7 @@ if ($woodchunk) {
 if ($nails) {
     echo "Nails <br>";
 }
-if ($imageknife) {
+if ($knife) {
     echo $imageknife;
 }
 
