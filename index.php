@@ -25,6 +25,6 @@ if ($nails) {
 if ($knife) {
     echo "Získal jsi nůž";
 }
-    
+ ?>   
 </body>
 </html>
