@@ -33,11 +33,14 @@ if ($knife) {
 <?php
 if ($rope && $knife && $woodchunk) {
     echo "Bow <br>";
-} elseif ($nails && $woodchunk) {
+}
+if ($nails && $woodchunk) {
     echo "Bat with nails <br>";
-} elseif ($rope && $woodchunk) {
+}
+if ($rope && $woodchunk) {
     echo "Nunchaku <br>";
-} elseif ($knife && $woodchunk) {
+}
+if ($knife && $woodchunk) {
     echo "Spear <br>";
 }
 ?> 
