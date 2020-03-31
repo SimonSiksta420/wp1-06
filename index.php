@@ -24,8 +24,8 @@ if ($woodchunk) {
 if ($nails) {
     echo "Nails <br>";
 }
-if ($knife) {
-    $imageknife;
+if ($imageknife) {
+    echo $imageknife;
 }
 
  ?>
