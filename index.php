@@ -25,8 +25,9 @@ if ($nails) {
     echo "Nails <br>";
 }
 if ($knife) {
-    echo $imageknife
+    echo "$imageknife";
 }
+
  ?>
 
  <h1> You can craft <h1>
