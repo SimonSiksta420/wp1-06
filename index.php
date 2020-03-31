@@ -25,7 +25,7 @@ if ($nails) {
     echo "Nails <br>";
 }
 if ($knife) {
-    <img src= <?= $imageknife; ?> <br>
+    echo $imageknife
 }
  ?>
 
