@@ -3,6 +3,7 @@ $woodchunk = true;
 $rope = true;
 $nails = true;
 $knife = true;
+$imageknife = "https://www.highlife.cz/image/5000/noze-nuz-ka-bar-usmc-fighting-knife-i5369.jpg"
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +25,7 @@ if ($nails) {
     echo "Nails <br>";
 }
 if ($knife) {
-    echo '<img src="Knife.jpg" alt="Knife"> <br>';
+    echo <img src= <?= $imageknife ?> <br>
 }
  ?>
 
