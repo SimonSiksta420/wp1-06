@@ -40,8 +40,6 @@ if ($rope && $knife && $woodchunk) {
 } elseif ($knife && $woodchunk) {
     echo "Spear<br>";
 }
-
-
-   
+?> 
 </body>
 </html>
