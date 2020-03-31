@@ -25,7 +25,7 @@ if ($nails) {
     echo "Nails <br>";
 }
 if ($knife) {
-    echo '<img src = "C:/Users/simon/Documents/GitHub/wp1-06/Picture/Knife.jpg" alt = "Knife" />';
+    echo '$imageknife';
 }
 
  ?>
