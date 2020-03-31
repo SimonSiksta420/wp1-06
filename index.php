@@ -14,16 +14,16 @@ $knife = true;
 <body>
 <?php
 if ($rope) {
-    echo = "Získal jsi lano.";
+    echo "Získal jsi lano.";
 }
 if ($woodchunk) {
-    echo = "Získal jsi kus dřeva";
+    echo "Získal jsi kus dřeva";
 }
 if ($nails) {
-    echo = "Získal jsi hřebíky";
+    echo "Získal jsi hřebíky";
 }
 if ($knife) {
-    echo = "Získal jsi nůž";
+    echo "Získal jsi nůž";
 }
     
 </body>
