@@ -25,7 +25,7 @@ if ($nails) {
     echo "Nails <br>";
 }
 if ($knife) {
-    echo $imageknife;
+    echo '<img src="https://cdn.shopify.com/s/files/1/1186/5476/products/chefs-knife-gray-191015-shoppage_grande.jpg?v=1570809541" alt="Knife"/>';
 }
 
  ?>
