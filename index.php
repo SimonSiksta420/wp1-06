@@ -24,7 +24,7 @@ if ($nails) {
     echo "Nails <br>";
 }
 if ($knife) {
-    echo "<img src="Knife.jpg" alt="Knife"> <br>";
+    echo '<img src="Knife.jpg" alt="Knife"> <br>';
 }
  ?>
 
