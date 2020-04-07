@@ -2,7 +2,7 @@
 $woodchunk = true;
 $rope = true;
 $nails = true;
-$knife = true;
+$knife = false;
 $imageknife = "https://cdn.shopify.com/s/files/1/1186/5476/products/chefs-knife-gray-191015-shoppage_grande.jpg?v=1570809541";
 ?>
 <!DOCTYPE html>
